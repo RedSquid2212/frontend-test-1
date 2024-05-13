@@ -1,0 +1,46 @@
+.film-card {
+    width: 23%;
+    height: 70%;
+}
+
+.film-card-image {
+    height: 80%;
+    width: 100%;
+}
+
+.film-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+    font-size: 1.2em;
+}
+
+.rating {
+    font-size: 3em;
+    margin: 0;
+}
+
+.title {
+    margin: 0;
+}
+
+.release {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .film-info {
+        flex-direction: column;
+        font-size: 0.6em;
+    }
+
+    .film-card {
+        width: 46%;
+        height: 40%;
+    }
+
+    .rating {
+        font-size: 2em;
+    }
+}

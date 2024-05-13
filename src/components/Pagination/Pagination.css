@@ -1,0 +1,29 @@
+.pagination-header {
+    margin-left: 20px;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.pagination-list {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+.item {
+    cursor: pointer;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.active {
+    background-color: #f2f6ff;
+    color: #171717;
+}
+
+.next, .previous {
+    cursor: pointer;
+}

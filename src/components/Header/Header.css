@@ -1,0 +1,13 @@
+.app-header {
+    background-color: #d95f55;
+    color: #f2f6ff;
+    font-size: 2em;
+    height: 70px;
+    text-align: left;
+    padding: 10px 0 0 20px;
+}
+
+.app-header-link {
+    text-decoration: none;
+    color: #f2f6ff;
+}

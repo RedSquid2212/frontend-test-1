@@ -1,0 +1,9 @@
+.film-full-info {
+    margin: 0 20px;
+    max-width: 60%;
+    align-self: flex-start;
+}
+
+.film-annotation {
+    margin-bottom: 5%;
+}
